@@ -24,7 +24,8 @@ class Game {
     this.view = new View(this.track);
     this.regenerateTrack();
   }
-
+  
+  
   moveset() {
     const keyboard = {
       d: () => {
